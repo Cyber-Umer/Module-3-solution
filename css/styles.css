@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/**
+h1{
+    background-color: gray;
+    border: black 4px solid;
+}
+**/
+
+#header-nav{
+    background-color:gray;
+    border-bottom: black 4px solid;
+}
+#logo-nav{
+    padding-left: 10px;
+}
+#tile-1, #tile-2, #tile-3{
+    background-color: lightgray;
+    border: black 3px solid;
+    height: 350px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+.row span{
+   border-top: black 3px solid;
+   border-left: black 3px solid;
+   width: fit-content;
+}
+#tile-1, #tile-2, #tile-3{
+    position: relative;
+}
+#tile-1 span, #tile-2 span, #tile-3 span{
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+}
+.container h2{
+    text-align: center;
+}
+.container{
+    margin-bottom: 50px;
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
